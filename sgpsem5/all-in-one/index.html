@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALL IN ONE</title>
+  <script type="text/javascript">
+    function disableBack() { window.history.forward(); }
+    setTimeout("disableBack()", 0);
+    window.onunload = function () { null };
+</script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <?php include 'config.php'; ?>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="/all-in-one/images/popup.jpg" alt="subscribe newsletter" width="350" height="340">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Welcome!!!</h3>
+
+            <p class="newsletter-desc">
+              
+            </p>
+
+          </div>
+
+          
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <!-- <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+    </div>
+
+    <div class="toast-detail">
+
+      =
+
+    </div>
+
+  </div> -->
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+        <div class="header-top-actions">
+
+         
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="/all-in-one/images/logo.png" alt="Anon's logo" width="150" height="80">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="What are you searching for??">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <a href="http://localhost/sgpsem5/login/index.php"><ion-icon  name="person-outline"></ion-icon></a>
+          </button>
+
+          
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item" style="height:600px;margin-top:-30px;">
+
+            
+            <img src="/all-in-one/images/slider2.webp" alt="new fashion summer sale" class="banner-img"  >
+            
+          </div>
+
+          <div class="slider-item" style="height:600px;margin-top:-30px;">
+
+            <img src="/all-in-one/images/slider.jpg" alt="modern sunglasses" class="banner-img">
+
+           
+
+          </div>
+
+          <div class="slider-item" style="height:600px;margin-top:-30px;">
+
+            <img src="/all-in-one/images/slider3.jpg" alt="women's latest fashion sale" class="banner-img" >
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <!-- <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="/all-in-one/images/google.png" alt="dress & frock" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">GOOGLE</h3>
+
+                <p class="category-item-amount">(3)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="/all-in-one/images/github.jpg" alt="winter wear" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">GITHUB</h3>
+
+                <p class="category-item-amount">(1)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="/all-in-one/images/microsoft.png" alt="glasses & lens" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">MICROSOFT</h3>
+
+                <p class="category-item-amount">(1)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/shorts.svg" alt="shorts & jeans" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">OTHERS</h3>
+
+                <p class="category-item-amount">(4)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+          <br>
+          <br> -->
+
+          <!-- <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/tee.svg" alt="t-shirts" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">T-shirts</h3>
+
+                <p class="category-item-amount">(35)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/jacket.svg" alt="jacket" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Jacket</h3>
+
+                <p class="category-item-amount">(16)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/watch.svg" alt="watch" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Watch</h3>
+
+                <p class="category-item-amount">(27)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/hat.svg" alt="hat & caps" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Hat & caps</h3>
+
+                <p class="category-item-amount">(39)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div id="product-container" >
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+        
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category" >
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+            
+            <ul class="sidebar-menu-category-list">
+              <li class="sidebar-menu-category active" >
+
+                <button class="sidebar-accordion-menu"    data-accordion-btn >
+                  
+                  <div class="menu-title-flex" >
+                    <img src="/all-in-one/images/ALL.png" alt="footwear" class="menu-title-img" width="25"
+                      height="25">
+
+                      <a href="index.html"><p class="menu-title">ALL</p></a>
+                  </div>
+
+                  <div>
+                     
+                  </div>
+                  </button>
+                </button>
+                </li>
+                <li class="sidebar-menu-category" >
+
+                <button class="sidebar-accordion-menu"  >
+                  
+                  <div class="menu-title-flex" >
+                    <img src="/all-in-one/images/google.png" alt="clothes" width="20" height="20" class="menu-title-img">
+
+                    <a href="google.html"><p class="menu-title">GOOGLE</p></a>
+                  </div>
+
+                  <div>
+                     
+                  </div>
+</button>
+                </button>
+             
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="/all-in-one/images/github.jpg" alt="footwear" class="menu-title-img" width="20"
+                      height="20">
+
+                      <a href="gihub.html"><p class="menu-title">GITHUB</p></a>
+                  </div>
+
+                  <div>
+                     
+                  </div>
+
+                </button>
+
+                
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="/all-in-one/images/microsoft.png" alt="clothes" class="menu-title-img" width="20"
+                      height="20">
+
+                      <a href="microsoft.html"><p class="menu-title">MICROSOFT</p></a>
+                  </div>
+
+                  <div>
+                     
+                  </div>
+
+                </button>
+
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="/all-in-one/images/other.png" alt="perfume" class="menu-title-img" width="25"
+                      height="25">
+
+                      <a href="other.html"><p class="menu-title">OTHER</p></a>
+                  </div>
+
+                  <div>
+                     
+                  </div>
+
+                </button>
+
+
+
+              </li>
+
+              
+
+              
+              </li>
+
+            </ul>
+
+          </div>
+   </div>
+
+            </div>
+
+          </div>
+
+</div>
+
+          <!--
+            - PRODUCT GRID
+          -->
+    </div>
+    <ul class="product">
+          <div class="product-main" style="margin-top: -325px;margin-left: 450px;">
+
+          
+
+            <div class="product-grid">
+              
+              <div class="showcase">
+                <div class="filterDiv GOOGLE">
+                <div class="showcase-banner " data-name="GOOGLE">
+                  <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1711723675%3A1664435586135814&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWoXu4Z5kJM1aOLSuQGyNG2X0d4hy6pNrykTtwCJc_IngEFJ8G4l87iuH1KEtisbYjjxF1eZ" target="_blank">
+                  <img src="/all-in-one/images/gmail.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/gmail.png"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+                  
+                  </div>
+                </div>
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category " style="font-size: 20px;">G-mail</a>
+
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <div class="filterDiv google">
+                    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-553627923%3A1664435670540978&continue=https%3A%2F%2Fclassroom.google.com%2Fu%2F0%2Fh&followup=https%3A%2F%2Fclassroom.google.com%2Fu%2F0%2Fh&passive=1209600&service=classroom&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWrjx3Wmg5cI_T6ZBhKVTcrdaWbbC2f4ktWoEvbx5HVrFxOsPLGSGBhiGSuo7e337y2ap8AwQg"  target="_blank">
+                  <img src="/all-in-one/images/clasroom.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/clasroom.png"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Google Classroom</a>
+
+
+                </div>
+</div>
+              </div>
+              <div class="showcase" >
+
+                <div class="showcase-banner">
+                  <a href="https://apps.google.com/meet/"  target="_blank">
+
+                  <img src="/all-in-one/images/meet.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/meet.png"   width="300" class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;margin-top: 20px;">Meet</a>
+
+
+                </div>
+
+              </div>
+              <div class="showcase" >
+
+                <div class="showcase-banner">
+                  <a href=""  target="_blank">
+                  <img src="/all-in-one/images/drive.webp"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/drive.webp"   width="300" class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;margin-top: 20px;">Drive</a>
+
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <a href="https://github.com/login" target="_blank">
+                  <img src="/all-in-one/images/github.jpg"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/github.jpg"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Github</a>
+
+
+                </div>
+
+              </div>
+              
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="/all-in-one/images/teams.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/teams.png"   width="300" class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Teams</a>
+
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <a href="https://www.hackerrank.com/auth/login" target="_blank">
+                  <img src="/all-in-one/images/hackerranck.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/hackerranck.png"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Hackerranck</a>
+
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <a href="https://www.codechef.com/login" target="_blank">
+                  <img src="/all-in-one/images/codechef.jpg"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/codechef.jpg"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Codechef</a>
+
+
+                </div>
+
+              </div>
+             
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <a href="https://swayamopenid.b2clogin.com/swayamopenid.onmicrosoft.com/B2C_1_swayam2/oauth2/v2.0/authorize?response_type=code&client_id=019220f4-2ec0-41c2-a727-529f1b54bb06&redirect_uri=https%3A%2F%2Fswayam.gov.in%2Fwso_ok&scope=https%3A%2F%2Fswayamopenid.onmicrosoft.com%2Fapi%2Fuser_impersonation+offline_access+openid&state=Kr1Rk5uO3qvzGCCk2XnovCo6pz4UPo&access_type=authorization_code" target="_blank">
+                  <img src="/all-in-one/images/nptel.jpg"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/nptel.jpg"   width="300" class="product-img hover">
+                </a>
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">NPTEL</a>
+
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+                  <a href=""  target="_blank">
+                  <img src="/all-in-one/images/courseera.png"   width="300" class="product-img default">
+                  <img src="/all-in-one/images/courseera.png"   width="300" class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;">Course-era</a>
+
+
+                </div>
+
+              </div>
+              
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src=""   width="300" class="product-img default">
+                  <img src=""   width="300" class="product-img hover">
+
+                  <div class="showcase-actions">
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category" style="font-size: 20px;"></a>
+
+
+                </div>
+
+              </div>
+            </ul>
+             
+              
+
+              
+               
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+   
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.list').click(function(){
+        const value = $(this).attr('data-filter')
+        if(value==all){
+          $('.showcase-banner').show('1000');
+
+        }
+        else{
+          $('.showcase-banner').not('.'+value).hide('1000');
+          $('.showcase-banner').filter('.'+value).hide('1000');
+        }
+
+      })
+      $('.list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      })
+    })
+  </script>
+
+</body>
+
+</html>
